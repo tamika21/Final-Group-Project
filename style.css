@@ -44,11 +44,14 @@ nav ul li a{
     font-weight:700;
 }
 
-.logo{
-    font-family: RoadTest;
-    color:#000000;
-    font-size:22px;
+.logo-box{
+    width:150px;
 }
+
+.main-image{
+    width:
+}
+
 .active{
     font-weight:bold;
     color:#2d2a2a;
@@ -96,9 +99,10 @@ nav ul li a{
     margin:0px 10px;
     
 }
-.hire-btn{
+.appt-btn{
     border:2 px solid #373636;
     color:#373636;
+    text-align:center;
 }
 .down-cv{
     background-color:#0b0b0b;
