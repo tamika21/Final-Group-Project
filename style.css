@@ -1,8 +1,27 @@
 body{
+    height:100%
     background-color:#f6f5f5;
     margin:0px;
     padding:0px;
 }
+
+.banner-area{
+    position:relative;
+    height:500px;
+    overflow: hidden;
+    background-image:url("image.png");
+    background-size:cover;
+
+}
+
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50);
+    overflow: hidden;
+}
+
 ul{
     list-style:none;
 }
@@ -12,14 +31,13 @@ a{
 section{
     width:100%;
     height:95vh;
-    background-image: 
     background-repeat: no-repeat;
     background-size:cover;
     position:relative;
 }
 
 .logo-box{
-    width:120px;
+    width: 100px;
 }
 
 nav{
@@ -27,7 +45,7 @@ nav{
     justify-content: space-between;
     align-items:center;
     height:60px;
-    background-color:#FFFFFF;
+    background-color: #726a95;
     box-shadow:2 px 2px 12px rgba(0,0,0,0.2);
     padding: 0px 5%;
 }
@@ -39,9 +57,13 @@ nav ul{
 nav ul li a{
     margin:30px;
     font-family: myriad pro regular;
-    color:#505050;
+    color:#FFFFFF;
     font-size:15px;
     font-weight:700;
+}
+
+.Contact Us{
+    color: #FFFFFF
 }
 
 .logo-box{
@@ -103,6 +125,16 @@ nav ul li a{
     border:2 px solid #373636;
     color:#373636;
     text-align:center;
+}
+
+
+.banner-area h1{
+    padding-top:8%;
+    font-size:70px;
+    font-family:myriadpro;
+    text-transform:uppercase;
+    color:#351f39
+    
 }
 .down-cv{
     background-color:#0b0b0b;
