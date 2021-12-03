@@ -39,6 +39,23 @@ body{
 
 }
 
+.container2 ul li .title:hover{
+   color:gray;
+
+}
+
+.container2 ul li:hover{
+    opacity:0.9;
+}
+
+@media screen and (max-width:1250px) {
+    .container ul li{
+        width:40%;
+        margin-left: 60px;
+
+    }
+    
+}
 ul{
     list-style:none;
 }
@@ -58,7 +75,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items:center;
-    height:60px;
+    height:80px;
     background-color: #726a95;
     box-shadow:2 px 2px 12px rgba(0,0,0,0.2);
     padding: 0px 5%;
@@ -77,9 +94,7 @@ nav ul li a{
 }
 
 
-.Contact Us{
-    color: #FFFFFF
-}
+
 
 .logo img{
     position:absolute;
