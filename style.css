@@ -64,14 +64,14 @@ body{
 
 
 .cbuttons{
-    margin-top:3rem;
+    margin-top:3px;
     display:flex;
     align-items: center;
     justify-content: flex-start;
-    gap:2rem;
+    gap:2px;
 }
 .cbuttons{
-    width:50px;
+    width:100px;
     color:var(--primary-color);
 }
 
@@ -93,7 +93,9 @@ body{
     gap:8px;
 }
 .card-desc{
+    width:50%;
     display:flex;
+    right:100px;
 }
 
 .subheading{
@@ -106,6 +108,26 @@ body{
 .section-heading{
     ;
 }
+
+.picture{
+    width:220px;
+    padding: 20px;
+}
+
+.picture img{
+    width:100%;
+    height:auto;
+}
+
+.container7{
+    background-color: #719fb0;
+}
+
+.left{
+    background-color: #719fb0;
+}
+
+.con
 .about{
     padding:15rem 0;
 }
@@ -163,7 +185,6 @@ a{
 }
 section{
     width:100%;
-    height:95vh;
     background-repeat: no-repeat;
     background-size:cover;
     position:relative;
