@@ -62,6 +62,80 @@ body{
     opacity:0.9;
 }
 
+
+.cbuttons{
+    margin-top:3rem;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:2rem;
+}
+.cbuttons{
+    width:50px;
+    color:var(--primary-color);
+}
+
+
+.left .primary-btn{
+    display:inline-flex;
+    background-color:#351f39;
+    color: white;
+    font-size: 12px;
+    padding: 12px 8px;
+}
+
+.cont{
+    background-color: #719fb0;
+    margin: 0px auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+}
+.card-desc{
+    display:flex;
+}
+
+.subheading{
+    ;
+}
+
+.insurance{
+    ;
+}
+.section-heading{
+    ;
+}
+.about{
+    padding:15rem 0;
+}
+
+.wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:3rem;
+}
+
+.left{
+    padding:2rem;
+    text-align:center;
+}
+
+.left .card{
+    box-shadow: 0px 0px 20px #4705fc33;
+    padding:3rem;
+    border-radius: 12px;
+    min-height: 400px;
+}
+
+.left .card .img{
+    width:70px;
+    height:70px;
+    margin: 0 auto;
+    overflow:hidden;
+    border-radius: 50%;
+}
 @media screen and (max-width:1250px) {
     .container ul li{
         width:40%;
