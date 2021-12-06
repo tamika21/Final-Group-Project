@@ -69,10 +69,12 @@ body{
     align-items: center;
     justify-content: flex-start;
     gap:2px;
+    border-radius: 5px;
 }
 .cbuttons{
     width:100px;
     color:var(--primary-color);
+    border-radius: 5px;
 }
 
 
