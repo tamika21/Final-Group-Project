@@ -31,6 +31,17 @@ body{
 
 }
 
+.profile{
+    display:flex;
+    padding-top: 20px;
+}
+
+.container7{
+    width: 75%;
+    margin: 0px auto;
+    padding: 0% 20% 20px 20%;
+
+}
 .container2 ul{
     padding: 0px;
     margin: 0px;
@@ -87,33 +98,40 @@ body{
 }
 
 .cont{
-    background-color: #719fb0;
     margin: 0px auto;
     display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:8px;
 }
 .card-desc{
     width:50%;
-    display:flex;
-    right:100px;
+    padding: 20px;
+    background-color: #719fb0;
+    text-align:center;
+    border-radius: 8px;
+    line-height:20px;
+    color:white;
 }
 
 .subheading{
-    ;
+    background-color: gray;
+    padding:20px;
+    text-align:center;
+    border-radius:8px;
+    line-height:20px;
+    color:white;
 }
 
-.insurance{
-    ;
-}
-.section-heading{
-    ;
-}
+.right{
+    background-color: gray;
+    padding:20px;
+    text-align:center;
+    border-radius:8px;
+    line-height:20px;
+    color:white;
 
+}
 .picture{
     width:220px;
-    padding: 20px;
+    padding: 0px 20px 20px 0px;
 }
 
 .picture img{
@@ -121,18 +139,12 @@ body{
     height:auto;
 }
 
-.container7{
-    background-color: #719fb0;
+
+#about{
+    padding: 20px;
+    background-color:#4E4B4B;
 }
 
-.left{
-    background-color: #719fb0;
-}
-
-.con
-.about{
-    padding:15rem 0;
-}
 
 .wrapper{
     display:flex;
