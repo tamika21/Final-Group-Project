@@ -154,8 +154,9 @@ body{
 }
 
 .left{
-    padding:2rem;
+    padding:20px;
     text-align:center;
+    background-color: #719fb0;
 }
 
 .left .card{
