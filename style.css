@@ -80,18 +80,18 @@ body{
     align-items: center;
     justify-content: flex-start;
     gap:2px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .cbuttons{
     width:100px;
-    color:var(--primary-color);
+    background-color: gray;
     border-radius: 5px;
 }
 
 
 .left .primary-btn{
     display:inline-flex;
-    background-color:#351f39;
+    background-color:gray;
     color: white;
     font-size: 12px;
     padding: 12px 8px;
@@ -104,7 +104,7 @@ body{
 .card-desc{
     width:50%;
     padding: 20px;
-    background-color: #719fb0;
+    background-color: #351f39;
     text-align:center;
     border-radius: 8px;
     line-height:20px;
@@ -112,7 +112,7 @@ body{
 }
 
 .subheading{
-    background-color: gray;
+    background-color:#351f39;
     padding:20px;
     text-align:center;
     border-radius:8px;
@@ -121,12 +121,14 @@ body{
 }
 
 .right{
-    background-color: gray;
+    background-color: #351f39;
     padding:20px;
     text-align:center;
     border-radius:8px;
     line-height:20px;
     color:white;
+    margin-top: 20px;
+    margin-left: 20px;
 
 }
 .picture{
@@ -142,7 +144,7 @@ body{
 
 #about{
     padding: 20px;
-    background-color:#4E4B4B;
+    background-color:#719fb0;
 }
 
 
@@ -150,13 +152,13 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
-    gap:3rem;
+    
 }
 
 .left{
     padding:20px;
     text-align:center;
-    background-color: #719fb0;
+    background-color: #351f39;
 }
 
 .left .card{
